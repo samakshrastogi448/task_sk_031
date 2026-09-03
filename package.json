@@ -1,0 +1,22 @@
+{
+  "name": "project-031-copper-monsoon-archive",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "qa:production": "node scripts/qa-production.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "gsap": "latest",
+    "@playwright/test": "latest",
+    "@axe-core/playwright": "latest"
+  },
+  "devDependencies": {}
+}
